@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>be.jeroendruwe.plugins.no-promises</id>
+    <name>No Promises</name>
+    <vendor email="druwe.jeroen@gmail.com" url="https://www.jeroendruwe.be">jeroendruwe.be</vendor>
+
+    <description><![CDATA[
+    Promise me no promises
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
